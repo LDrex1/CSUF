@@ -1,0 +1,11 @@
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+.navbar-nav > li {
+  font-weight: 600 !important;
+}
+@media screen and (max-width: 768px) {
+  .franky img {
+    right: 0 !important;
+  }
+}
