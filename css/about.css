@@ -1,0 +1,8 @@
+.members {
+  row-gap: 6.2rem;
+  column-gap: 1rem;
+}
+
+.member-details {
+  width: 350px;
+}
