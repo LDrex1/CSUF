@@ -15,14 +15,22 @@
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/about.css" />
 
-    <title>Document</title>
+    <title>about</title>
   </head>
   <body>
     <header class="border-bottom">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container mx-auto">
-          <a class="navbar-brand" href="../index.html">
-            <p class="fw-bold">CSUF</p>
+          <a class="navbar-brand d-flex" href="../index.html">
+            <div class="me-2">
+              <img
+                src="../images/footer_img.png"
+                width="48px"
+                height="48px"
+                alt=""
+              />
+            </div>
+            <p class="fw-bold m-auto">CSUF</p>
           </a>
           <button
             class="navbar-toggler"
@@ -48,10 +56,10 @@
                 <a class="nav-link text-dark p-3" href="#">events</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-dark p-3" href="#">paths</a>
+                <a class="nav-link text-dark p-3" href="paths.html">paths</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-dark p-3" href="#"
+                <a class="nav-link text-dark p-3" href="node-Buds.html"
                   >node<span class="text-danger">Buds</span></a
                 >
               </li>
@@ -68,26 +76,26 @@
     <!--  -->
 
     <div
-      class="first-disp mb-5 pt-5 d-flex justify-content-center align-items-center"
+      class="first-disp px-2 mb-5 pt-5 d-flex flex-wrap justify-content-center align-items-center"
     >
-      <div class="me-4">
+      <div class="me-sm-4 mb-sm-0 mb-2">
         <img src="../images/about-acm.png" alt="" width="250px" />
       </div>
       <h1>about</h1>
     </div>
 
     <!-- First Section -->
-    <section class="container-fluid mb-5 pt-1 px-5">
-      <h2 class="text-center mb-4">
-        What is acm<span class="text-primary">CSUF</span>?
+    <section class="container-fluid mb-5 pt-1 px-md-5">
+      <h2 class="text-center mb-3 mb-md-4">
+        What is acm<span class="text-primary-2">CSUF</span>?
       </h2>
-      <p class="text-center mb-0">
+      <p class="text-start text-md-center mb-0">
         <span class="fw-bold">acm</span
-        ><span class="fw-bold text-primary">CSUF</span> is a student-ran chapter
-        of the
+        ><span class="fw-bold text-primary-2">CSUF</span> is a student-ran
+        chapter of the
         <span>Association for Computing Machinery.</span>
       </p>
-      <p class="text-center">
+      <p class="text-start text-md-center">
         You may call us <span>acm</span>for short! We focus on introducing and
         getting students involved in tech, as well as educationg students about
         the field through workshops, presentations, livestreams, and more. Our
@@ -96,17 +104,30 @@
     </section>
 
     <!-- Second Section -->
-    <section class="pt-5 px-5">
-      <h3 class="text-center mt-3">who are a part of acm?</h3>
+    <section class="pt-4 pt-md-5 px-5">
+      <h3 class="text-center mt-2 mt-md-3">who are a part of acm?</h3>
+      <div class="text-center mt-3 mt-md-4">
+        <span class="bg-dark py-1 ps-2 text-white rounded"
+          >2020-2021<button
+            class="ms-1 border-start-2 border-top-0 border-bottom-0 border-end-0 border-secondary bg-dark text-white"
+          >
+            <img
+              src="../images/vector-down.png"
+              alt=""
+              width="12px"
+              aspect-ratio="1.7"
+            /></button
+        ></span>
+      </div>
       <div
-        class="members container-fluid px-5 d-flex flex-wrap justify-content-around"
+        class="members container-fluid mt-2 mt-md-5 pt-5 px-md-5 d-flex flex-wrap justify-content-around"
       >
         <div class="member-details d-flex flex-column align-items-center">
           <div class="member">
             <img src="../images/about-Jacob.png" alt="" />
           </div>
-          <p class="fs-4 fw-bold mt-4">Jacob Niguyen</p>
-          <p>
+          <p class="fs-4 mb-1 mb-md-3 fw-bold mt-3 mt-md-4">Jacob Niguyen</p>
+          <p class="">
             President, <span class="fw-bold">acm</span
             ><span class="fw-bold text-danger">Create</span> Director
           </p>
@@ -116,8 +137,8 @@
           <div class="member">
             <img src="../images/about-Aaron.png" alt="" />
           </div>
-          <p class="fs-4 fw-bold mt-4">Aaron Lieberman</p>
-          <p>
+          <p class="fs-4 mb-1 mb-md-3 fw-bold mt-3 mt-md-4">Aaron Lieberman</p>
+          <p class="text-center">
             Internal Vice President, <span class="fw-bold">node</span
             ><span class="fw-bold text-danger">Buds</span> Officer
           </p>
@@ -127,7 +148,7 @@
           <div class="member">
             <img src="../images/about-Jason.png" alt="" />
           </div>
-          <p class="fs-4 fw-bold mt-4">Jason Anthony</p>
+          <p class="fs-4 mb-1 mb-md-3 fw-bold mt-3 mt-md-4">Jason Anthony</p>
           <p>Secretary</p>
         </div>
         <!--  -->
@@ -135,7 +156,7 @@
           <div class="member">
             <img src="../images/about-Andrew.png" alt="" />
           </div>
-          <p class="fs-4 fw-bold mt-4">Andrew Lau</p>
+          <p class="fs-4 mb-1 mb-md-3 fw-bold mt-3 mt-md-4">Andrew Lau</p>
           <p>Treasurer</p>
         </div>
         <!--  -->
@@ -143,7 +164,9 @@
           <div class="member">
             <img src="../images/about-Nicholas.png" alt="" />
           </div>
-          <p class="fs-4 fw-bold mt-4">Nicholas Renteria</p>
+          <p class="fs-4 mb-1 mb-md-3 fw-bold mt-3 mt-md-4">
+            Nicholas Renteria
+          </p>
           <p>Marketing Chair</p>
         </div>
         <!--  -->
@@ -151,7 +174,7 @@
           <div class="member">
             <img src="../images/about-Ethan.png" alt="" />
           </div>
-          <p class="fs-4 fw-bold mt-4">Ethan Davison</p>
+          <p class="fs-4 mb-1 mb-md-3 fw-bold mt-3 mt-md-4">Ethan Davison</p>
           <p>Webmaster</p>
         </div>
         <!--  -->
@@ -159,7 +182,7 @@
           <div class="member">
             <img src="../images/about-Joshua.png" alt="" />
           </div>
-          <p class="fs-4 fw-bold mt-4">Joshua Hughes</p>
+          <p class="fs-4 mb-1 mb-md-3 fw-bold mt-3 mt-md-4">Joshua Hughes</p>
           <p>ICC Representative</p>
         </div>
         <!--  -->
@@ -167,7 +190,7 @@
           <div class="member">
             <img src="../images/about-Samuel.png" alt="" />
           </div>
-          <p class="fs-4 fw-bold mt-4">Samuel Valls</p>
+          <p class="fs-4 mb-1 mb-md-3 fw-bold mt-3 mt-md-4">Samuel Valls</p>
           <p>ICC Representative</p>
         </div>
         <!--  -->
@@ -175,7 +198,9 @@
           <div class="member">
             <img src="../images/about-Wilbert.png" alt="" />
           </div>
-          <p class="fs-4 fw-bold mt-4">Wilbert Rodrigues</p>
+          <p class="fs-4 mb-1 mb-md-3 fw-bold mt-3 mt-md-4">
+            Wilbert Rodrigues
+          </p>
           <p>Intern Program Manager</p>
         </div>
         <!--  -->
@@ -183,7 +208,7 @@
           <div class="member">
             <img src="../images/about-Shaleen.png" alt="" />
           </div>
-          <p class="fs-4 fw-bold mt-4">Shaleen Mathur</p>
+          <p class="fs-4 mb-1 mb-md-3 fw-bold mt-3 mt-md-4">Shaleen Mathur</p>
           <p>Co-Workshop Manager</p>
         </div>
         <!--  -->
@@ -191,7 +216,7 @@
           <div class="member">
             <img src="../images/about-Johnson.png" alt="" />
           </div>
-          <p class="fs-4 fw-bold mt-4">Johnson Tong</p>
+          <p class="fs-4 mb-1 mb-md-3 fw-bold mt-3 mt-md-4">Johnson Tong</p>
           <p>Co-Workshop Manager</p>
         </div>
         <!--  -->
@@ -199,7 +224,7 @@
           <div class="member">
             <img src="../images/about-Kavit.png" alt="" />
           </div>
-          <p class="fs-4 fw-bold mt-4">Kavit Sanghavi</p>
+          <p class="fs-4 mb-1 mb-md-3 fw-bold mt-3 mt-md-4">Kavit Sanghavi</p>
           <p>
             <span class="fw-bold"
               >acm<span class="text-secondary">Algo</span></span
@@ -212,7 +237,7 @@
           <div class="member">
             <img src="../images/about-Kevin.png" alt="" />
           </div>
-          <p class="fs-4 fw-bold mt-4">Kevin Dillon</p>
+          <p class="fs-4 mb-1 mb-md-3 fw-bold mt-3 mt-md-4">Kevin Dillon</p>
           <p>
             <span class="fw-bold"
               >acm<span class="text-secondary">Algo</span></span
@@ -225,7 +250,7 @@
           <div class="member">
             <img src="../images/about-Parth.png" alt="" />
           </div>
-          <p class="fs-4 fw-bold mt-4">Parth Sharma</p>
+          <p class="fs-4 mb-1 mb-md-3 fw-bold mt-3 mt-md-4">Parth Sharma</p>
           <p>
             <span class="fw-bold"
               >acm<span class="text-secondary">Algo</span></span
@@ -238,7 +263,7 @@
           <div class="member">
             <img src="../images/about-Lisa.png" alt="" />
           </div>
-          <p class="fs-4 fw-bold mt-4">Lisa Hong</p>
+          <p class="fs-4 mb-1 mb-md-3 fw-bold mt-3 mt-md-4">Lisa Hong</p>
           <p>
             <span class="fw-bold"
               >acm<span class="text-danger">Create</span></span
@@ -251,7 +276,7 @@
           <div class="member">
             <img src="../images/about-Mike.png" alt="" />
           </div>
-          <p class="fs-4 fw-bold mt-4">Mike Ploythai</p>
+          <p class="fs-4 mb-1 mb-md-3 fw-bold mt-3 mt-md-4">Mike Ploythai</p>
           <p>
             <span class="fw-bold"
               >acm<span class="text-danger">Create</span></span
@@ -264,7 +289,7 @@
           <div class="member">
             <img src="../images/about-SamuelS.png" alt="" />
           </div>
-          <p class="fs-4 fw-bold mt-4">Samuel Sandoval</p>
+          <p class="fs-4 mb-1 mb-md-3 fw-bold mt-3 mt-md-4">Samuel Sandoval</p>
           <p>
             <span class="fw-bold"
               >acm<span class="text-primary">Dev</span></span
@@ -277,7 +302,7 @@
           <div class="member">
             <img src="../images/about-Wesley.png" alt="" />
           </div>
-          <p class="fs-4 fw-bold mt-4">Wesley Chou</p>
+          <p class="fs-4 mb-1 mb-md-3 fw-bold mt-3 mt-md-4">Wesley Chou</p>
           <p>
             <span class="fw-bold"
               >acm<span class="text-primary">Dev</span></span
@@ -290,7 +315,7 @@
           <div class="member">
             <img src="../images/about-Armanul.png" alt="" />
           </div>
-          <p class="fs-4 fw-bold mt-4">Armanul Ambia</p>
+          <p class="fs-4 mb-1 mb-md-3 fw-bold mt-3 mt-md-4">Armanul Ambia</p>
           <p>
             <span class="fw-bold"
               >acm<span class="text-primary">Dev</span></span
@@ -302,17 +327,21 @@
     </section>
 
     <!-- Third Section -->
-    <section class="container mt-5 pt-5 text-center">
-      <h1 class="mt-3">how can i get involved?</h1>
+    <section
+      class="container mt-5 pt-5 pb-md-3 pb-lg-5 text-start text-md-center"
+    >
+      <h1 class="mt-3 text-center">how can i get involved?</h1>
       <p class="">
         We currently don't have any openings for board positions, but follow us
         on social media to get notified when we do! Until then, we invite you to
         beacome a part of our chapter to start off your tech journey on the
         right foot.
       </p>
-      <button class="bg-dark text-white border-0 rounded p-1 px-2">
-        join us today!
-      </button>
+      <div class="text-center">
+        <button class="bg-dark text-white border-0 rounded p-1 px-2">
+          join us today!
+        </button>
+      </div>
     </section>
 
     <!-- Footer -->
@@ -331,5 +360,8 @@
         <p class="mb-0 fw-bold">CSUF</p>
       </div>
     </footer>
+    <!--  -->
+
+    <script src="../bootstrap.min.js"></script>
   </body>
 </html>
