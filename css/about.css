@@ -1,8 +1,15 @@
 .members {
-  row-gap: 6.2rem;
-  column-gap: 1rem;
+  row-gap: 3rem;
+  column-gap: 0.6rem;
 }
 
 .member-details {
-  width: 350px;
+  width: 290px;
+}
+
+@media screen and(min-width:768px) {
+  .members {
+    row-gap: 6.2rem;
+    column-gap: 1rem;
+  }
 }
